@@ -17,8 +17,8 @@ const ImageGallery = ({ images, onImageClick }) => (
 );
 
 ImageGallery.propTypes = {
-  images: PropTypes.array.isRequired, // Визначте проптайп для images
-  onImageClick: PropTypes.func.isRequired, // Визначте проптайп для onImageClick
+  images: PropTypes.array.isRequired,
+  onImageClick: PropTypes.func.isRequired,
 };
 
 export default ImageGallery;

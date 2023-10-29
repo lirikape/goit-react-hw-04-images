@@ -13,5 +13,5 @@ export const Button = ({ onLoadMore }) => {
 };
 
 Button.propTypes = {
-  onLoadMore: PropTypes.func.isRequired, // Визначте проптайп для onLoadMore
+  onLoadMore: PropTypes.func.isRequired,
 };

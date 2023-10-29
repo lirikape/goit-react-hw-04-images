@@ -14,8 +14,8 @@ const ImageGalleryItem = ({ webformatURL, onClick }) => (
 );
 
 ImageGalleryItem.propTypes = {
-  webformatURL: PropTypes.string.isRequired, // Визначте проптайп для webformatURL
-  onClick: PropTypes.func.isRequired, // Визначте проптайп для onClick
+  webformatURL: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
 
 export default ImageGalleryItem;
